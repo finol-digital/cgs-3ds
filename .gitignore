@@ -1,0 +1,14 @@
+# devkitPro / 3DS build output
+build/
+*.3dsx
+*.elf
+*.smdh
+*.cia
+*.t3x
+# .NET
+bin/
+obj/
+# Generated packs and local test data
+packs/
+*.log
+.DS_Store
