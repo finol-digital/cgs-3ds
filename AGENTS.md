@@ -11,5 +11,6 @@ Guidelines for agents working on cgs-3ds.
 - No Nintendo SDK (CTR-SDK) material, keys, or proprietary firmware may enter this repo.
 - Test on an emulator first. Never script firmware-level changes on the debug unit; those are
   manual, documented, and reversible (NAND/OTP backed up first).
-- All source files start with the MPL 2.0 header used by CGS:
-  `This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0...`
+- This repo is MIT-licensed (see [LICENSE](LICENSE)). Source files start with the SPDX header
+  `// SPDX-License-Identifier: MIT` (use the comment syntax of the language). Do not copy
+  MPL-2.0 code from CGS into this repo; MPL code may only be used as an unmodified dependency.

@@ -9,4 +9,4 @@
 
 See [docs/PLAN.md](docs/PLAN.md) for the plan and roadmap.
 
-Licensed under the [Mozilla Public License 2.0](LICENSE.md).
+Licensed under the [MIT License](LICENSE).
