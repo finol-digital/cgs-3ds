@@ -23,7 +23,7 @@ a New Nintendo 2DS XL dev/debug unit. Requirements:
 | D3 | The PC-side converter lives here (`tools/`), in C# | It can reference `FinolDigital.Cgs.Json` so it parses games exactly as CGS does. Later it moves to the `FinolDigital.Cgs.Json` repo with the other shared logic (including from `Card-Game-Simulator-XR`). |
 | D4 | Cross-play needs a new, open, engine-neutral protocol (working name **CGS Table Protocol, CTP**) | CGS multiplayer is Netcode for GameObjects (~300 RPC/NetworkVariable sites) over Unity Transport plus Unity Relay/Lobby. Rebuilding it in C, and authenticating with Unity Services from a 3DS, are both impractical. |
 | D5 | Develop on an emulator (Azahar/Lime3DS/Citra-family) first, then on hardware | The debug unit is valuable and hard to replace. Hardware access must never block development. |
-| D6 | MPL-2.0 license, same as CGS | Consistent licensing for the code that will later move to shared repos. |
+| D6 | MIT license (public repo) | Permissive and common for homebrew. MIT code can move into the MPL-2.0 shared repos later; MPL-2.0 CGS code must not be copied in here (dependencies such as `FinolDigital.Cgs.Json` via NuGet are fine). |
 
 ### Target hardware (New 2DS XL)
 
